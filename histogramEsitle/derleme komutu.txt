@@ -1,0 +1,5 @@
+g++ histogramEsitlemeMulti.cpp -o histogramEsitlemeMulti `pkg-config opencv4 --cflags --libs` -I/usr/include/opencv4 -O3 -pthread -g
+
+g++ histogramEsitle.cpp -o histogramEsitle `pkg-config opencv4 --cflags --libs` -I/usr/include/opencv4 -O3 -pthread -g
+
+
